@@ -92,3 +92,31 @@ body {
     content: "";
     display: block;
 }
+
+.figures {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.figure {
+    display: inline-block;
+    margin: 0 auto;
+    height: inherit;
+    padding-bottom: 100px;
+}
+
+.figure__image {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.figure__text {
+    width: 150px;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
