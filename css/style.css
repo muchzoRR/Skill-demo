@@ -195,3 +195,13 @@ body {
     color: white;
     margin-right: 40px;
 }
+
+.footer {
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+}
+
+.footer__text {
+    margin-bottom: 10px;
+}
