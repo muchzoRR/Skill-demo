@@ -4,4 +4,9 @@ window.onload = function() {
         $(".overlay").show();
         $(".contact").show();
     });
+
+    $(".contact__button--close").on("click", function() {
+        $(".overlay").hide();
+        $(".contact").hide();
+    })
 }
