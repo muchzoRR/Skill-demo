@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: "Verdana";
+}
+
+.header {
+
+}
+
+.header__nav {
+    height: 10vh;
+    background: url("./../img/sky.jpg");
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    margin-top: 5vh;
+}
+
+.menu__list {
+
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link {
+    color: white;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu__link:hover {
+    backface-visibility: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
