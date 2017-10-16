@@ -212,6 +212,17 @@ body {
     cursor: pointer;
 }
 
+.overlay {
+    background: black;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 1000;
+}
+
 .footer {
     text-align: center;
     background-color: grey;
