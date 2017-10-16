@@ -42,3 +42,39 @@ body {
     backface-visibility: rgba(255, 255, 255, 0.8);
     color: #333;
 }
+
+.articles {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.article {
+    clear: both;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.article__header {
+    float: left;
+    width: 50%;
+}
+
+.article__header--title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.article__header--image {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.article__text {
+    float: right;
+    width: 50%;
+    padding: 50px;
+    text-align: justify;
+    line-height: 25px;
+}
