@@ -196,6 +196,22 @@ body {
     margin-right: 40px;
 }
 
+.button__show {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.button__show--contact {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #ddd;
+    background: grey;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
 .footer {
     text-align: center;
     background-color: grey;
