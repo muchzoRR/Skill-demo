@@ -78,3 +78,17 @@ body {
     text-align: justify;
     line-height: 25px;
 }
+
+.article:nth-child(even) .article__header {
+    float: right;
+}
+
+.article:nth-child(even) .article__text {
+    float: left;
+}
+
+.article::after {
+    clear: both;
+    content: "";
+    display: block;
+}
