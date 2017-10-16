@@ -95,7 +95,34 @@
     </section>
 
     <section class="contact">
-
+        <header class="contact__header">
+            <h1 class="contact__header--title">Contact form</h1>
+            <button class="contact__button--close">&times;</button>
+        </header>
+        <form class="contact__form">
+            <input class="contact__form--name"
+                    type="text"
+                    name="nickname"
+                    placeholder="Enter nickname"
+                    min="3"
+                    required
+            >
+            <input class="contact__form--email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter e-mail address"
+                    required
+            >
+            <textarea class="contact__form--description"
+                        name="description"
+                        placeholder="Enter description"
+                        max="1000"
+                        required
+            ></textarea>
+            <button class="contact__form--button"
+                    name="send"
+            >Send </button>
+        </form>
     </section>
 
 

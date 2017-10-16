@@ -120,3 +120,78 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+.contact {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    position: fixed;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    z-index: 2000;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.contact__header {
+    padding: 30px;
+}
+
+.contact__header--title {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    width: 350px;
+}
+
+.contact__form {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact__form--name {
+    display: inline-block;
+    height: 30px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.contact__form--email {
+    display: inline-block;
+    height: 30px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.contact__form--description {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.contact__form--button {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.contact__button--close {
+    background: none;
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: #333;
+    font-size: 30px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: white;
+    margin-right: 40px;
+}
