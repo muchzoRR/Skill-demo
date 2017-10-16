@@ -8,5 +8,9 @@ window.onload = function() {
     $(".contact__button--close").on("click", function() {
         $(".overlay").hide();
         $(".contact").hide();
-    })
-}
+    });
+
+    $(".figure").on("click", function() {
+        $(this).find(".figure__text").slideToggle("slow");
+    });
+};
